@@ -29,7 +29,6 @@ function successTextArea(textarea) {
 }
 
 form.addEventListener("submit", function (e) {
-  // e.preventDefault();
   if (username.value.trim() === "") {
     showError(username, "Username is required");
   } else {
